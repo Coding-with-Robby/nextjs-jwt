@@ -1,3 +1,10 @@
+import Nav from "./components/Nav";
+
 export default function Home() {
-  return <h1>Homepage</h1>;
+  return (
+    <div>
+      <h1>Homepage</h1>
+      <Nav />
+    </div>
+  );
 }
